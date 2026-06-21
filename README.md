@@ -1,5 +1,13 @@
 # ultrasteller-contract
 
+**Ultrasteller** — live satellite fleet tracking and ground-station pass
+prediction, built on real orbital data, with on-chain prediction markets on
+Stellar/Soroban in progress.
+
+🌐 Live: https://ultrasteller.vercel.app
+Frontend: [ultrasteller-frontend](https://github.com/itodo001/ultrasteller-frontend)
+Backend: [ultrasteller-backend](https://github.com/itodo001/ultrasteller-backend)
+
 Soroban smart contracts for Ultrasteller. A Cargo workspace with two
 contracts:
 
