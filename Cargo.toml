@@ -1,19 +1,9 @@
-[package]
-name = "pass-anchor"
-version = "0.0.0"
-edition = "2021"
-license = "MIT"
-publish = false
+[workspace]
+resolver = "2"
+members = ["pass-anchor", "prediction-market"]
 
-[lib]
-crate-type = ["lib", "cdylib"]
-doctest = false
-
-[dependencies]
+[workspace.dependencies]
 soroban-sdk = "25"
-
-[dev-dependencies]
-soroban-sdk = { version = "25", features = ["testutils"] }
 
 [profile.release]
 opt-level = "z"
